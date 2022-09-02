@@ -11,5 +11,3 @@ RUN wget -q ${DOWNLOAD_URL}
 
 WORKDIR /work
 
-ENTRYPOINT ["java", "-jar", "/tmp/textidote.jar"]
-CMD ["--help"]
